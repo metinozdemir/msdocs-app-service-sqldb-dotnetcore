@@ -58,6 +58,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'msdocs-core-sql-metin'
-          slot-name: 'Staging'
+          slot-name: 'staging'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_34F57B6059854DD191A6C15A20EAA200 }}
